@@ -1,0 +1,73 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.lead-pl-2 {
+  color: #737677;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.625em;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #737677;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+  position: relative;
+}
+
+.vertical-center {
+  min-height: 100%; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.bg-text {
+  position: absolute;
+  margin-bottom: -1em;
+  top: -80px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .bg-text {
+    font-size: 6em;
+  }
+}
+@media (max-width: 991.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .bg-text {
+    position: relative;
+  }
+}
